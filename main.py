@@ -25,7 +25,7 @@ parser.add_argument(
     "-i", "--images", nargs="*", help="the images to attach to the tweet"
 )
 args = parser.parse_args()
-args.tweet += " #おはよう"
+# args.tweet += " #おはよう"
 
 media_ids = []
 if args.images:
