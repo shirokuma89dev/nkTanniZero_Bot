@@ -3,7 +3,7 @@ name: Good Morning
 on:
   schedule:
     # 毎日午前7時に実行されるスケジュール (UTC時間なので、日本時間では+9時間)
-    - cron: '*/5 * * * *'
+    - cron: '8 * * * *'
 
 jobs:
   tweet:
